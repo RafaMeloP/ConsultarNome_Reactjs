@@ -1,0 +1,56 @@
+#pesquisa{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#Input,#select select{
+    border: 1px solid rgba(0,0,0,0.4);
+    width: 40%;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+    outline: none;
+}
+#select{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+#select select{
+    font-weight: 400;
+    font-size: 15px;
+    height: 25px;
+    width: 50%;
+    color: rgb(102, 102, 102);
+}
+#select select + select{
+    margin-left: 5px;
+}
+#botao{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#botao button{
+    width: 12%;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(204, 202, 202);
+    color: rgb(102, 102, 102);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 400ms;
+    outline: none;
+}
+#botao button:hover{
+    background-color: rgb(168, 168, 168);
+    color: rgb(53, 52, 52);
+}
