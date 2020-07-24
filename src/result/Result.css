@@ -44,3 +44,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+#tabela{
+    padding-right: 15px;
+}

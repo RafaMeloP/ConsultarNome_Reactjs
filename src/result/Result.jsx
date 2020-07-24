@@ -41,15 +41,17 @@ export default props =>
             <div>
                 <table className="table table-condensed">
                     <thead>
-                        <th>1930</th>
-                        <th>1940</th>
-                        <th>1950</th>
-                        <th>1960</th>
-                        <th>1970</th>
-                        <th>1980</th>
-                        <th>1990</th>
-                        <th>2000</th>
-                        <th>2010</th>
+                        <tr>
+                            <td><strong>1930</strong></td>
+                            <td><strong>1940</strong></td>
+                            <td><strong>1950</strong></td>
+                            <td><strong>1960</strong></td>
+                            <td><strong>1970</strong></td>
+                            <td><strong>1980</strong></td>
+                            <td><strong>1990</strong></td>
+                            <td><strong>2000</strong></td>
+                            <td><strong>2010</strong></td>
+                        </tr>
                     </thead>
                     <tbody id="tabela">
                         <tr>

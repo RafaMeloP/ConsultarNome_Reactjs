@@ -65,6 +65,7 @@ export default class Pesquisa extends React.Component {
                 })
             )
         )
+        this.setState({url:'https://servicodados.ibge.gov.br/api/v2/censos/nomes/'})
     }
     render() {
         return (

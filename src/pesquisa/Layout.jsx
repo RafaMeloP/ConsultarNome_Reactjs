@@ -4,7 +4,7 @@ export default props =>
     <div id="pesquisa">
         <input id="Input" type="text" placeholder="Pesquise o nome" value={props.nome} onChange={props.setNome} />
         <div id="select">
-            <select id="sexo" onChange={props.setSexo}>
+            <select id="sexo" value={props.sexo} onChange={props.setSexo}>
                 <option value="">Ambos os sexos</option>
                 <option value="M">Masculino</option>
                 <option value="F">Feminino</option>

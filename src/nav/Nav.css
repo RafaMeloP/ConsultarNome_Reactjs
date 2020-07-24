@@ -1,0 +1,22 @@
+#nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#nav #nome, #nav #ranking{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#nav #nome{
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+#nav #nome:hover, #nav #ranking:hover{
+    background-color: rgb(197, 197, 193);
+}
